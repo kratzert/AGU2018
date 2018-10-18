@@ -2,6 +2,13 @@
 
 This repository will contain the documented code to reproduce any results presented at the AGU 18 fall meeting.
 
+## Authors
+Frederik Kratzert¹, Mathew Herrnegger², Daniel Klotz¹, Sepp Hochreiter¹, Günter Klambauer¹
+
+- ¹: Institute for Machine Learning, Johannes Kepler University, Linz, Austria
+- ²: Institute for Hydrology and Water Management, University of Natural Resources and Life Sciences, Vienna, Austria
+
+
 ## Scientific Abstract
 
 In recent years, neural networks gained a new wave of popularity in many application domains, such as computer vision or natural language processing. However in applied environmental sciences, like rainfall-runoff modelling in hydrology, neural networks tend to have a rather bad reputation. This can be attributed to their _black-box-ness_ and the difficulty or impossibility to understand network internals leading to a prediction.
