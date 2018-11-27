@@ -21,5 +21,4 @@ In general, we anticipate that our findings can increase the trust in the applic
 
 References:
 
-Kratzert, F., Klotz, D., Brenner, C., Schulz, K., and Herrnegger, M.: Rainfall-Runoff modelling using Long-Short-Term-Memory (LSTM) networks, Hydrol. Earth Syst. Sci. Discuss., https://doi.org/10.5194/hess-2018-247, in review, 2018.
-
+Kratzert, F., Klotz, D., Brenner, C., Schulz, K., and Herrnegger, M.: Rainfall–runoff modelling using Long Short-Term Memory (LSTM) networks, Hydrol. Earth Syst. Sci., 22, 6005-6022, https://doi.org/10.5194/hess-22-6005-2018, 2018. 
