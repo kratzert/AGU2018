@@ -1,11 +1,18 @@
 # Do internals of neural networks make sense in the context of hydrology?
 
-This repository will contain the documented code to reproduce any results presented at the AGU 18 fall meeting.
+This repository contains my presentation from the AGU 2018 Fall meeting, as well as all code necessary to reproduce the presented results.
+
+The repository is structured in the following way:
+
+- [code](code/) Contains the Python code to reproduce all results and figures
+- [MODIS](MODIS/) Contains a R script to download and preprocess MODIS data of snow-cover-fraction and evapotranspiration for each basin.
+- [Kratzert_et_al_AGU18_slides.pdf](Kratzert_et_al_AGU18_slides.pdf) The slides presented at the AGU 2018 Fall meeting.
+- [Kratzert_et_al_AGU18_abstract.pdf](Kratzert_et_al_AGU18_abstract.pdf) The abstract of our study. The abstract can also be seen at the [bottom](#Scientific-Abstract) 
 
 ## Authors
 Frederik Kratzert¹, Mathew Herrnegger², Daniel Klotz¹, Sepp Hochreiter¹, Günter Klambauer¹
 
-- ¹: Institute for Machine Learning, Johannes Kepler University, Linz, Austria
+- ¹: LIT AI Lab & Institute for Machine Learning, Johannes Kepler University, Linz, Austria
 - ²: Institute for Hydrology and Water Management, University of Natural Resources and Life Sciences, Vienna, Austria
 
 
