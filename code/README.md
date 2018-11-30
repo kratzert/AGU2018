@@ -38,20 +38,20 @@ The only code that has to be used is the `run_experiments.py` file. This file ha
 
 ## Train models from scratch
 
-```python
+```
 python run_experiments.py --camels_root /path/to/CAMELS/ --mode train --tensorboard True
 ```
 
 ## Evaluate the trained models
 
 Will produce the figures shown in the presentation:
-```python
+```
 python run_experiments.py --camels_root /path/to/CAMELS/ --mode eval
 ```
 
 ## First train, the evaluate
 
-```python
+```
 python run_experiments.py --camels_root /path/to/CAMELS/ --mode both --tensorboard True
 ```
 
