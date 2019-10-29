@@ -44,7 +44,8 @@ class LSTM(nn.Module):
         f_t = \sigma(W_{hf} h_{t-1} + W_{xf} x_t + b_f)
         i_t = \sigma(W_{hi} h_{t-1} + W_{xi} x_t + b_i)
         o_t = \sigma(W_{ho} h_{t-1} + W_{xo} x_t + b_o)
-        c_t = f_t \odot c_{t-1} + tanh(W_{hc} h_t + W_{xc} x_t + b_c)
+        g_t = tanh(W_{hg} h_{t-1} + W_{xg} x_t + b_g)
+        c_t = f_t \odot c_{t-1} +i_t \odot g_t
         h_t = o_t \odot tanh(c_t)
 
     """
